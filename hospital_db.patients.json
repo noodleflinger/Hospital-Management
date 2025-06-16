@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "6850116ce588ad15bf4fa82e"
+  },
+  "patient_id": "PATB221D700",
+  "personal_info": {
+    "name": "Aby Pal",
+    "age": 14,
+    "gender": "Other",
+    "phone": "3456789012",
+    "address": "12, downtown, bawadiyakalan",
+    "emergency_contact": "1234567890"
+  },
+  "medical_info": {
+    "disease": "hypo glycemia",
+    "symptoms": "bleeding out of his eyes",
+    "allergies": "water",
+    "medical_history": "got shot at the age of 8"
+  },
+  "admission_info": {
+    "admission_date": {
+      "$date": "2025-06-16T18:12:59.499Z"
+    },
+    "admission_type": "ICU",
+    "assigned_doctor": "Dr. House",
+    "room_number": "24",
+    "status": "Discharged",
+    "discharge_date": {
+      "$date": "2025-06-16T18:24:09.469Z"
+    },
+    "discharge_notes": "please do not walk for a little while"
+  },
+  "billing_info": {
+    "total_amount": 0,
+    "paid_amount": 0,
+    "outstanding_amount": 0
+  },
+  "created_at": {
+    "$date": "2025-06-16T18:13:24.308Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-16T18:24:09.469Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6850147be588ad15bf4fa82f"
+  },
+  "patient_id": "PAT5EC7E455",
+  "personal_info": {
+    "name": "Sanchez",
+    "age": 32,
+    "gender": "M",
+    "phone": "8989898989",
+    "address": "wewewewe",
+    "emergency_contact": "1231231234"
+  },
+  "medical_info": {
+    "disease": "lucimia",
+    "symptoms": "fever",
+    "allergies": "dogs",
+    "medical_history": "sweats gold"
+  },
+  "admission_info": {
+    "admission_date": {
+      "$date": "2025-06-16T18:26:06.362Z"
+    },
+    "admission_type": "Emergency",
+    "assigned_doctor": "Dr. Rabecca",
+    "room_number": "45",
+    "status": "Active"
+  },
+  "billing_info": {
+    "total_amount": 13500,
+    "paid_amount": 0,
+    "outstanding_amount": 13500
+  },
+  "created_at": {
+    "$date": "2025-06-16T18:26:27.796Z"
+  },
+  "updated_at": {
+    "$date": "2025-06-16T18:32:36.209Z"
+  }
+}]
